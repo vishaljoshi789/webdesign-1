@@ -5,11 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Web Design -1 </title>
 </head>
 
+
 <body>
-    hello world
+
+    <nav class="container mx-auto">
+        <div class="flex items-center justify-between px-10">
+            <img src="logo.png" alt="" class="logo w-56">
+            <div class="search h-1/4 hidden lg:flex">
+                <input type=" text"
+                    class="search-input bg-gray-200 border-t-2 border-l-2 border-b-2 border-gray-400 rounded-tl-lg rounded-bl-lg p-3 w-96 shadow-lg">
+                <img src="search-white.png" alt="" class="search-btn bg-gray-600 w-12 p-3 rounded-tr-lg rounded-br-lg">
+            </div>
+            <div class="login-register flex space-x-2">
+                <img src="account.svg" alt="">
+                <span>Login/Register</span>
+            </div>
+        </div>
+        <div class="search h-1/4 flex lg:hidden mx-auto w-fit my-3">
+            <input type=" text"
+                class="search-input bg-gray-200 border-t-2 border-l-2 border-b-2 border-gray-400 rounded-md p-3 w-96 shadow-lg">
+            <img src="search-white.png" alt="" class="search-btn bg-gray-600 w-12 p-3 rounded-tr-lg rounded-br-lg">
+        </div>
+    </nav>
+
+    <div class="banner flex md:flex-row-reverse justify-center items-center flex-col">
+        <img src="banner.webp" alt="">
+        <div class="banner_info">
+            <h1 class="text-3xl text-blue-500">Search Home</h1>
+            <p class="text-red-500 font-bold">Buy, Sell, Rent Houses</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="nearby-houses-view">
+        <h1 class="text-3xl underline my-3 mx-12 font-bold text-blue-500">Nearby Houses</h1>
+        <div class="flex flex-wrap items-center justify-evenly">
+            <div class="house w-96 mx-3 p-5 my-3 bg-gray-500 rounded-lg text-center">
+                <img src="https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?size=626&ext=jpg"
+                    alt="">
+
+                <div class="city flex justify-center space-x-2 my-3">
+                    <img src="location-ico.svg" alt="" class="w-4 ">
+                    <span class="text-white">Haldwani</span>
+                </div>
+                <button class="bg-blue-500 p-3 rounded-lg text-white font-bold">Proceed</button>
+            </div>
+            <div class="house w-96 mx-3 p-5 my-3 bg-gray-500 rounded-lg text-center">
+                <img src="https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?size=626&ext=jpg"
+                    alt="">
+
+                <div class="city flex justify-center space-x-2 my-3">
+                    <img src="location-ico.svg" alt="" class="w-4 ">
+                    <span class="text-white">Haldwani</span>
+                </div>
+                <button class="bg-blue-500 p-3 rounded-lg text-white font-bold">Proceed</button>
+            </div>
+            <div class="house w-96 mx-3 p-5 my-3 bg-gray-500 rounded-lg text-center">
+                <img src="https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?size=626&ext=jpg"
+                    alt="">
+
+                <div class="city flex justify-center space-x-2 my-3">
+                    <img src="location-ico.svg" alt="" class="w-4 ">
+                    <span class="text-white">Haldwani</span>
+                </div>
+                <button class="bg-blue-500 p-3 rounded-lg text-white font-bold">Proceed</button>
+            </div>
+            <div class="house w-96 mx-3 p-5 my-3 bg-gray-500 rounded-lg text-center">
+                <img src="https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?size=626&ext=jpg"
+                    alt="">
+
+                <div class="city flex justify-center space-x-2 my-3">
+                    <img src="location-ico.svg" alt="" class="w-4 ">
+                    <span class="text-white">Haldwani</span>
+                </div>
+                <button class="bg-blue-500 p-3 rounded-lg text-white font-bold">Proceed</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 
